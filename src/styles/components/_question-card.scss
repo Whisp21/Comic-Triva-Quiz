@@ -1,0 +1,30 @@
+* {
+  color: #494953;
+}
+
+button {
+  border: 1px solid #6A7EFC;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #6A7EFC;
+}
+
+.card {
+  background-color: #F6F6F6;
+  width: 800px;
+  height: 250px;
+  margin: auto;
+}
+
+.number {
+  padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 250px;
+    height: 270px;
+  }
+}
